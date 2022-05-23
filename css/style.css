@@ -1,6 +1,16 @@
-/* :root{
-    --pink: #E53170;
-} */
+:root{
+    --azzurro-bg: #B4D0E7;
+    --blue-button: #0061FF;
+    --verde-badge: #A2D39B;
+    --granata-badge-text: #61082B;
+    --azzurro-badge: #0093CE;
+    --rosso-badge: #FF1C1C;
+    --azzurro-chiaro-badge: #B4D0E7;
+    --blu-badge: #0D2481;
+    --giallo-badge: #FFD830;
+
+
+}
 
 /* reset */
 * {
@@ -16,9 +26,14 @@ body{
 }
 
 /* Utils */
-.container {
+.container-jum-foot {
     max-width: 1200px;
     margin: 0 auto;
+}
+
+.container-main {
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 
