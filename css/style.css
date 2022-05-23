@@ -8,9 +8,8 @@
     --azzurro-chiaro-badge: #B4D0E7;
     --blu-badge: #0D2481;
     --giallo-badge: #FFD830;
-
-
 }
+
 
 /* reset */
 * {
@@ -25,15 +24,66 @@ body{
   font-family: 'Open Sans', sans-serif;
 }
 
+nav.navbar{
+  height: 100px;
+  background-color: #fff;
+  padding: 10px 20px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+}
+
+nav>img{
+  height: 30px;
+}
+
+ul.first-link{
+  width: 100%;
+}
+
+ul.second-link{
+  width: 100%;
+  justify-content: flex-end;
+}
+
+
 /* Utils */
 .container-jum-foot {
-    max-width: 1200px;
-    margin: 0 auto;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .container-main {
   max-width: 1000px;
   margin: 0 auto;
+}
+
+.flex{
+  display: flex;
+}
+
+div.link{
+  width: 100%;
+}
+
+li{
+  list-style-type: none;
+  margin-left: 50px;
+}
+
+li>a{
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+}
+
+a.button-blu{
+  background-color: var(--blue-button);
+  color: #fff;
+  padding: 7px 20px;
 }
 
 
