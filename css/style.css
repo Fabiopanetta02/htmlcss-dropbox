@@ -24,14 +24,22 @@ body{
   font-family: 'Open Sans', sans-serif;
 }
 
-nav.navbar{
-  height: 100px;
-  background-color: #fff;
-  padding: 10px 20px;
+header{
   position: fixed;
   left: 0;
   right: 0;
   z-index: 1;
+}
+
+main{
+  padding-top: 100px;
+}
+
+/* HEADER */
+nav.navbar{
+  height: 100px;
+  background-color: #fff;
+  padding: 10px 20px;
   display: flex;
   align-items: center;
 }
@@ -49,15 +57,50 @@ ul.second-link{
   justify-content: flex-end;
 }
 
+/* MAIN-JUMBOTRON */
+h1{
+  font-weight: 900;
+  font-size: 95px;
+  padding-top: 98px;
+  margin-bottom: 70px;
+}
+
+.col-left{
+  flex-basis: 30%;
+  width: 100%;
+}
+
+.descr-button{
+  margin-bottom: 80px;
+}
+
+.fa-arrow-down{
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+
+.col-right{
+  flex-basis: 70%;
+}
+
+.col-right img{
+  width: 100%;
+  position: relative;
+}
+
+.section-1{
+  margin-bottom: 40px;
+}
+
 
 /* Utils */
 .container-jum-foot {
-  max-width: 1200px;
+  max-width: 1500px;
   margin: 0 auto;
 }
 
 .container-main {
-  max-width: 1000px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -74,16 +117,33 @@ li{
   margin-left: 50px;
 }
 
-li>a{
+a{
   text-decoration: none;
   color: #000;
   font-size: 20px;
 }
 
-a.button-blu{
+a.button-blu-small{
   background-color: var(--blue-button);
   color: #fff;
   padding: 7px 20px;
 }
 
+.azzurro-bg{
+  background-color: var(--azzurro-bg);
+  height: 920px;
+}
+
+div>p{
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+a.button-blu-large{
+  background-color: var(--blue-button);
+  color: #fff;
+  padding: 14px 20px;
+  display: inline-block;
+  margin-bottom: 40px;
+}
 
