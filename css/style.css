@@ -88,8 +88,108 @@ h1{
   position: relative;
 }
 
-.section-1{
+/* MAIN PLAIN */
+.section-2{
+  margin-top: 200px;
+}
+
+h2{
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+
+.check{
+  height: 25px;
+  margin-bottom: 50px;
+}
+
+.circle-blue{
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-color: #fff;
+  border: 7px solid var(--blue-button);
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+span{
+  line-height: 25px;
+  vertical-align: middle;
+}
+
+.circle-white{
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-color: #fff;
+  border: 3px solid #D0D0D3;
+  border-radius: 50%;
+  vertical-align: middle;
+  margin-left: 50px;
+}
+
+.col-1, .col-2, .col-3{
+  border: 3px solid #D0D0D3;
+  margin-right: 50px;
+  width: calc(100% / 3 - 50px);
+}
+
+.titolo{
+  text-align: center;
+  padding: 10px 0px;
+  border-bottom: 3px solid #D0D0D3;
+}
+
+hr{
+  color: #D0D0D3;
+  width: 50px;
+  margin-bottom: 50px;
+  opacity: 0.5;
+}
+
+.main-plain{
+  padding: 40px 30px;
+}
+
+h3{
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.price{
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.duration{
+  display: block;
+  color: #666;
   margin-bottom: 40px;
+}
+
+.buy-now{
+  margin-bottom: 40px;
+  display: inline-block;
+  font-size: 18px;
+}
+
+.now{
+  text-decoration: underline;
+  color: var(--blu-badge);
+  font-size: 18px;
+}
+
+h4{
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.fa-check{
+  font-weight: bold;
+  color: var(--blue-button);
 }
 
 
@@ -100,12 +200,28 @@ h1{
 }
 
 .container-main {
-  max-width: 1200px;
+  max-width: 1300px;
   margin: 0 auto;
 }
 
 .flex{
   display: flex;
+}
+
+.flex-direction{
+  flex-direction: column;
+}
+
+.fa-user, .fa-users, .fa-folder-open, .fa-share-nodes{
+  line-height: 25px;
+  vertical-align: middle;
+  margin-right: 12px;
+}
+
+.fa-check{
+  line-height: 25px;
+  vertical-align: middle;
+  margin-right: 12px;
 }
 
 div.link{
@@ -139,11 +255,33 @@ div>p{
   margin-bottom: 40px;
 }
 
-a.button-blu-large{
+a.button-blu-medium{
   background-color: var(--blue-button);
   color: #fff;
   padding: 14px 20px;
   display: inline-block;
   margin-bottom: 40px;
+}
+
+a.button-blu-large{
+  background-color: var(--blue-button);
+  color: #fff;
+  padding: 14px 20px;
+  display: block;
+  margin-bottom: 40px;
+}
+
+.center{
+  text-align: center;
+}
+
+ul.list-with-icon{
+  margin-bottom: 50px;
+}
+
+li.list-icon{
+  margin-left: 0;
+  font-size: 18px;
+  margin-bottom: 20px;
 }
 
