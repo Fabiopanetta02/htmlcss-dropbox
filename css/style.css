@@ -375,6 +375,48 @@ div.company{
   text-align: right;
 }
 
+/* Section 8 */
+.separetor-qa{
+  color: #000;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.request{
+  flex-basis: 80%;
+}
+
+.request-text{
+  font-size: 20px;
+}
+
+.row-down{
+  flex-basis: 20%;
+  text-align: right;
+}
+
+.fa-angle-down{
+  font-size: 25px;
+  font-weight: bold;
+  margin-right: 50px;
+}
+
+.fa-angle-up{
+  display: none;
+}
+
+.fa-angle-down:hover{
+  display: none;
+}
+
+.answer{
+  display: none;
+}
+
+.answer:hover{
+  display: block;
+}
+
 /* UTILS */
 /* Container */
 .container-jum-foot {
@@ -390,6 +432,11 @@ div.company{
 .container-sec-5{
   max-width: 900px;
   margin: 0;
+}
+
+.container-answer {
+  margin-top: 50px;
+  max-width: 1000px;
 }
 
 /* Flex */
@@ -441,6 +488,10 @@ div.company{
 }
 
 .section-7{
+  margin-bottom: 200px;
+}
+
+.section-8{
   margin-bottom: 200px;
 }
 
