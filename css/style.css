@@ -360,6 +360,21 @@ div.company{
   background-color: var(--giallo-badge);
 }
 
+/* Section 7 */
+.col-left-text{
+  flex-basis: 50%;
+  width: 100%;
+}
+
+.text-granata{
+  color: var(--granata-badge-text);
+}
+
+.col-right-button{
+  flex-basis: 50%;
+  text-align: right;
+}
+
 /* UTILS */
 /* Container */
 .container-jum-foot {
@@ -388,6 +403,10 @@ div.company{
 
 .flex-direction{
   flex-direction: column;
+}
+
+.align-items{
+  align-items: baseline;
 }
 
 .fa-user, .fa-users, .fa-folder-open, .fa-share-nodes{
@@ -421,6 +440,11 @@ div.company{
   margin-bottom: 200px;
 }
 
+.section-7{
+  margin-bottom: 200px;
+}
+
+
 
 div.link{
   width: 100%;
@@ -432,14 +456,20 @@ li>a{
   font-size: 20px;
 }
 
+div>p{
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+/* Background color */
 .azzurro-bg{
   background-color: var(--azzurro-bg);
   height: 920px;
 }
 
-div>p{
-  font-size: 20px;
-  margin-bottom: 40px;
+.bg-azzurro-text{
+  background-color: var(--azzurro-bg);
+  padding: 150px 0;
 }
 
 
@@ -470,12 +500,21 @@ a.button-blu-large{
   margin-bottom: 40px;
 }
 
-a.button-white{
+a.button-white-border{
   text-decoration: none;
   font-size: 20px;
+  color: #000;
   background-color: #fff;
   padding: 10px 15px;
   border: 2px solid #000;
+}
+
+a.button-white{
+  text-decoration: none;
+  font-size: 20px;
+  color: #000;
+  background-color: #fff;
+  padding: 15px 50px;
 }
 
 
