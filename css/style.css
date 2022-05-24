@@ -33,6 +33,7 @@ header{
   left: 0;
   right: 0;
   z-index: 1;
+  box-shadow: 0 1px 3px #dedede;
 }
 
 main{
@@ -43,7 +44,7 @@ main{
 nav.navbar{
   height: 100px;
   background-color: #fff;
-  padding: 10px 20px;
+  padding: 0px 20px;
   display: flex;
   align-items: center;
 }
@@ -417,6 +418,62 @@ div.company{
   display: block;
 }
 
+/* footer */
+footer{
+  background-color: #000;
+  color: #fff;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.main-footer{
+  padding-bottom: 150px;
+}
+
+.col-1-footer{
+  flex-basis: calc(100% / 5);
+}
+
+.title-footer{
+  margin-bottom: 50px;
+}
+
+.ul-footer{
+  margin-left: 0;
+}
+
+.list-item-footer{
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  margin-left: 0;
+  margin-bottom: 20px;
+}
+
+.link-list-item{
+  color: #fff;
+  margin-left: 0;
+}
+
+.hr-footer{
+  width: 200px;
+  color: #fff;
+  opacity: 1;
+}
+
+.fa-earth-europe, .fa-caret-up{
+  color: #666;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.language{
+  color: #666;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+
 /* UTILS */
 /* Container */
 .container-jum-foot {
@@ -454,6 +511,10 @@ div.company{
 
 .align-items{
   align-items: baseline;
+}
+
+.align-center{
+  align-items: center;
 }
 
 .fa-user, .fa-users, .fa-folder-open, .fa-share-nodes{
@@ -494,8 +555,6 @@ div.company{
 .section-8{
   margin-bottom: 200px;
 }
-
-
 
 div.link{
   width: 100%;
