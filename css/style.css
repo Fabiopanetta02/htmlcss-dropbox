@@ -276,6 +276,90 @@ a.search{
   font-size: 20px;
 }
 
+/* Section 6 */
+.col-company{
+  width: calc(100% / 3);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div.company{
+  width: 350px;
+  height: 400px;
+  flex-grow: 1;
+  position: relative;
+}
+
+.img-company{
+  width: 200px;
+  height: 200px;
+  filter: brightness(0) invert(1);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.img-company-spec{
+  filter: brightness(0) invert(1);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.col-company-center{
+  width: calc(100% / 3);
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 50px;
+  position: relative;
+}
+
+.company-center{
+  margin-bottom: 30px;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
+.line-company{
+  margin-top: 230px;
+  width: 150px;
+}
+
+.author{
+  font-size: 20px;
+}
+/* Backround company */
+.company-designit{
+  background-color: var(--verde-badge);
+}
+
+.company-arizona{
+  background-color: var(--granata-badge-text);
+}
+
+.company-florida{
+  background-color: var(--azzurro-badge);
+}
+
+.company-topps, .company-world{
+  background-color: var(--rosso-badge);
+}
+
+.company-hearts{
+  background-color: var(--azzurro-chiaro-badge);
+}
+
+.company-lonely{
+  background-color: var(--blu-badge);
+}
+
+.company-clear{
+  background-color: var(--giallo-badge);
+}
+
 /* UTILS */
 /* Container */
 .container-jum-foot {
@@ -336,6 +420,7 @@ a.search{
 .section-5{
   margin-bottom: 200px;
 }
+
 
 div.link{
   width: 100%;
