@@ -33,7 +33,7 @@ header{
   left: 0;
   right: 0;
   z-index: 1;
-  box-shadow: 0 1px 3px #dedede;
+  box-shadow: 0 1px 10px #dedede;
 }
 
 main{
@@ -187,7 +187,7 @@ h3{
 }
 
 .descrption-plain{
-  font-size: 15px;
+  font-size: 14px;
 }
 
 .buy-now{
@@ -350,34 +350,69 @@ div.company{
 .author{
   font-size: 16px;
 }
-/* Backround company */
+/* Backround and hover company */
 .company-designit{
   background-color: var(--verde-badge);
+  transition: border 0.5s;
+}
+
+.company-designit:hover{
   border: 15px solid #D1E9CD;
 }
 
 .company-arizona{
   background-color: var(--granata-badge-text);
+  transition: border 0.5s;
+}
+
+.company-arizona:hover{
+  border: 15px solid #AF8394;
 }
 
 .company-florida{
   background-color: var(--azzurro-badge);
+  transition: border 0.5s;
+}
+
+.company-florida:hover{
+  border: 15px solid #7FC9E6;
 }
 
 .company-topps, .company-world{
   background-color: var(--rosso-badge);
+  transition: border 0.5s;
+}
+
+.company-topps:hover, 
+.company-world:hover{
+  border: 15px solid #FF8D8D;
 }
 
 .company-hearts{
   background-color: var(--azzurro-chiaro-badge);
+  transition: border 0.5s;
+}
+
+.company-hearts:hover{
+  border: 15px solid #D9E7F3;
 }
 
 .company-lonely{
   background-color: var(--blu-badge);
+  transition: border 0.5s;
+}
+
+.company-lonely:hover{
+  border: 15px solid #8591C0;
 }
 
 .company-clear{
   background-color: var(--giallo-badge);
+  transition: border 0.5s;
+}
+
+.company-clear:hover{
+  border: 15px solid #FFEB97;
 }
 
 /* Section 7 */
@@ -566,10 +601,10 @@ footer{
   align-items: center;
 }
 
-.fa-user, .fa-users, .fa-folder-open, .fa-share-nodes{
+.fa-user, .fa-users, .fa-folder-open,
+.fa-share-nodes, .fa-building{
   line-height: 20px;
-  vertical-align: middle;
-  margin-right: 3px;
+  margin-right: 12px;
 }
 
 .fa-check{
